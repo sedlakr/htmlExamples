@@ -1,0 +1,54 @@
+<!--
+try in Chrome, Firefox, Edge
+it is rendered different in all cases
+-->
+<html>
+<head>
+	<style>
+		.moe-whs-tab {
+			white-space: pre;
+		}
+		.moe-whs-tab .inner {
+			white-space: pre;
+		}
+		.table {
+			background: #726b6b;
+		}
+	</style>
+</head>
+<body>
+
+<div id="container" style="
+	border: 1px solid black;
+	width: 300px;
+	height: 300px;
+	margin: 200px 200px;
+	position: absolute;
+">
+	<span class="contentwrapper">
+		<span class="content" style="
+				position: relative;
+			">
+			<span
+				class="moe-whs-tab"
+				style="background: red"
+		><span class="inner">	</span></span><span
+
+				class="moe-whs-tab"
+				style="background: #be0909"><span class="inner">	</span></span><span
+
+				class="table" style="
+			background: #ccc;
+					"><span style="
+	"><div style="
+			display: inline-block;
+			width: 100%;
+			background: #c6cad7;
+				">Table container</div>
+				</span>
+			</span>
+		</span>
+	</span>
+</div>
+</body>
+</html>
